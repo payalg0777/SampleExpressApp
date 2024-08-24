@@ -1,6 +1,6 @@
 pipeline{
   agent any
-  stages[
+  stages{
     stage('Build'){
       steps{
         nodejs('Node'){
@@ -9,5 +9,5 @@ pipeline{
         }
       }
     }
-    ]
+    }
 }
